@@ -1,0 +1,52 @@
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+    background-image: url("background.png");
+    background-color: #EAE0D5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #FFFFFF;
+}
+h2 {
+    font-family: 'Metrophobic', sans-serif;
+}
+#nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7a5d5d;
+}
+#nav li{
+    float: left;
+}
+#nav li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+}
+
+
+#content{
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+table{
+    margin: auto;
+}
+#content ul,#content ol{
+    text-align: left;
+    margin: auto;
+    width: 20%;
+}
+h4{
+    font-family: 'Archivo Narrow', sans-serif;
+}
